@@ -1,0 +1,192 @@
+%%%% Proceedings format for most of ACM conferences (with the exceptions listed below) and all ICPS volumes.
+\documentclass[sigconf]{acmart}
+
+% defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{makecell}
+    
+% Rights management information. 
+\copyrightyear{2020}
+\acmYear{2020}
+\setcopyright{acmlicensed}
+\acmConference[SIGCSE '20]{SIGCSE '20: Special Interest Group for Computer Science Education}{March 11--14, 2020}{Portland, Oregon, USA}
+\acmPrice{15.00}
+\acmDOI{10.1145/1122445.1122456}
+\acmISBN{978-1-4503-9999-9/18/06}
+
+%
+% These commands are for a JOURNAL article.
+%\setcopyright{acmcopyright}
+%\acmJournal{TOG}
+%\acmYear{2018}\acmVolume{37}\acmNumber{4}\acmArticle{111}\acmMonth{8}
+%\acmDOI{10.1145/1122445.1122456}
+
+%
+% Submission ID. 
+% Use this when submitting an article to a sponsored event. You'll receive a unique submission ID from the organizers
+% of the event, and this ID should be used as the parameter to this command.
+%\acmSubmissionID{123-A56-BU3}
+
+%
+% The majority of ACM publications use numbered citations and references. If you are preparing content for an event
+% sponsored by ACM SIGGRAPH, you must use the "author year" style of citations and references. Uncommenting
+% the next command will enable that style.
+%\citestyle{acmauthoryear}
+
+%
+% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%
+% The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
+\title[Title for top of each page]{Regular title text}
+
+\author{Author Name}
+\affiliation{%
+  \institution{Institution name}
+  \streetaddress{Institution address}
+  \city{institution city}
+  \state{State}
+  \postcode{99999}
+}
+\email{Author Email}
+
+\author{Author Name}
+\affiliation{%
+  \institution{Institution name}
+  \streetaddress{Institution address}
+  \city{institution city}
+  \state{State}
+  \postcode{99999}
+}
+
+\email{Author Email}
+\author{Author Name}
+\affiliation{%
+  \institution{Institution name}
+  \streetaddress{Institution address}
+  \city{institution city}
+  \state{State}
+  \postcode{99999}
+}
+
+\email{Author Email}
+\author{Author Name}
+\affiliation{%
+  \institution{Institution name}
+  \streetaddress{Institution address}
+  \city{institution city}
+  \state{State}
+  \postcode{99999}
+}
+\email{Author Email}
+
+\author{Author Name}
+\affiliation{%
+  \institution{Institution name}
+  \streetaddress{Institution address}
+  \city{institution city}
+  \state{State}
+  \postcode{99999}
+}
+\email{Author Email}
+%
+% By default, the full list of authors will be used in the page headers. Often, this list is too long, and will overlap
+% other information printed in the page headers. This command allows the author to define a more concise list
+% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Authors, et al.}
+
+%
+% The abstract is a short summary of the work to be presented in the article.
+\begin{abstract}
+Abstract text. 
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003456.10003457.10003527.10003528</concept_id>
+<concept_desc>Social and professional topics~Computational thinking</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003527.10003531.10003533</concept_id>
+<concept_desc>Social and professional topics~Computer science education</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003527.10003541</concept_id>
+<concept_desc>Social and professional topics~K-12 education</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+
+%
+% Keywords. 
+\keywords{keywords}
+    
+\maketitle
+
+\section{Introduction} 
+Introduction text.
+
+Example reference and another one with two references. 
+
+\section{Section header text} 
+\cite{ch00}
+\cite{ch01}
+\cite{ch02}
+\cite{ch03}
+\cite{ch04}
+\cite{ch05}
+\cite{ch06}
+\cite{ch07}
+\cite{ch08}
+\cite{ch09}
+\cite{ch10}
+\cite{ch11}
+\cite{ch12}
+\cite{ch13}
+\cite{ch14}
+\cite{ch15}
+\cite{ch16}
+\cite{ch17}
+\cite{ch18}
+\cite{ch19}
+\cite{ch20}
+\cite{ch21}
+\cite{ch22}
+\cite{ch23, ch24, ch25}
+
+\subsection{Example Subsection header} 
+
+\cite{ch26}
+\cite{ch27}
+\cite{ch28}
+\cite{ch29}
+\cite{ch30}
+\cite{ch31}
+
+
+
+\subsubsection{Example sub-sub section header} 
+
+\begin{itemize}
+    \item Example bullet,
+    \item another bullet
+\end{itemize}
+
+
+
+\begin{acks}
+Acknowledgement text.
+\end{acks}
+
+%
+% The next two lines define the bibliography style to be used, and the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+\end{document}
